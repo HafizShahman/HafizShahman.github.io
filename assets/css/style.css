@@ -1086,6 +1086,11 @@ section {
   background: #040b14;
 }
 
+#footer .bmcbtn {
+  display: flex;
+  justify-content: center;
+}
+
 #footer .copyright {
   text-align: center;
 }
