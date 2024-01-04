@@ -2,258 +2,697 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Hafiz Shahman - Personal Webpage</title>
-  <!-- <title>BRADENGELHARDT</title> -->
-  <meta name="description" content="Web designer and front-end developer">
-  <meta name="google-site-verification" content="5KvVi44o91j-QPOlhWsy51uw6O6FyBvAoBiJIDmPZl0" />
-  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet"
-    type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Hafiz Shahman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/HS-LOGO.png" rel="icon">
+  <link href="assets/img/HS-LOGO.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
 
-  <body>
-    <!-- navbar header -->
-    <div class="nav-header">
-      <div class="nav-brand">
-        <img src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Hafiz Shahman</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/hfzshahman" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://github.com/HafizShahman" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/caman_without_semicolon/" class="instagram"><i
+              class="bx bxl-instagram"></i></a>
+          <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <a href="https://www.linkedin.com/in/hafizshahman/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
       </div>
-      <i class="fa-brands fa-bars fa-3x"></i>
-      <div class="header-links">
+
+      <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-          <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </div>
+      </nav><!-- .nav-menu -->
     </div>
-    <!-- end navbar header -->
+  </header><!-- End Header -->
 
-    <!-- sidebar slider -->
-    <div class="nav-screen">
-      <i class="fa-brands fa-times fa-3x"></i>
-      <div class="nav-container">
-        <div class="nav-links">
-          <ul id='myMenu'>
-            <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-            <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-            <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Hafiz Shahman</h1>
+      <p>I'm <span class="typed" data-typed-items="Developer, Designer, Freelancer, Photographer"></span></p>
     </div>
-    <!-- end navbar slider -->
+  </section><!-- End Hero -->
 
-    <!-- begin fullpage -->
+  <main id="main">
 
-    <div id="fullpage">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-      <!-- begin section -->
+        <div class="section-title">
+          <h2>About</h2>
+          <p>👨‍💻 Software Developer | Independent & Self-Motivated | Leader by Nature <br><br>
 
-      <div class="section aboutme" data-anchor="aboutme">
-        <div class="opaque-bg animated fadeInDown">
-          <h1 style="color:white">HAFIZ<span style="color:#FF6363">/</span>SHAHMAN</h1>
-          <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+            With over 2 years in Laravel development, I'm a 🎓 self-learner and 💪🏻 motivated software developer. I
+            thrive independently, embracing challenges with a leadership mindset. Beyond coding, I find joy in strikes
+            on the 🎳 bowling alley and the rhythm of 🚴🏻 cycling adventures. Let's code, lead, and roll towards
+            innovation!</p>
         </div>
-        <i id="moveDown" class="fa-brands fa-chevron-down fa-3x bounce"></i>
-      </div>
-      <!-- end section -->
 
-      <!-- begin section -->
-
-      <div class="section" data-anchor="skills">
-        <div class="content">
-          <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
-          <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Hafiz Shahman! I'm a Web Designer
-            & Back-end Developer focused on web CRUD data process!</p>
-
-          <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
-            <div class="skillbar clearfix " data-percent="95%">
-              <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
-              <div class="skillbar-bar" style="background: #DD1E2F;"></div>
-              <div class="skill-bar-percent">95%</div>
-            </div> <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="95%">
-              <div class="skillbar-title" style="background: #AB4DD2;"><span>PHP</span></div>
-              <div class="skillbar-bar" style="background: #AB4DD2;"></div>
-              <div class="skill-bar-percent">95%</div>
-            </div> <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="60%">
-              <div class="skillbar-title" style="background: #EBB035;"><span>CSS</span></div>
-              <div class="skillbar-bar" style="background: #EBB035;"></div>
-              <div class="skill-bar-percent">60%</div>
-            </div> <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="60%">
-              <div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
-              <div class="skillbar-bar" style="background: #218559;"></div>
-              <div class="skill-bar-percent">60%</div>
-            </div> <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="45%">
-              <div class="skillbar-title" style="background: #6840D4;"><span>Javascript</span></div>
-              <div class="skillbar-bar" style="background: #6840D4;"></div>
-              <div class="skill-bar-percent">45%</div>
-            </div> <!-- End Skill Bar -->
-
-            <div class="skillbar clearfix " data-percent="80%">
-              <div class="skillbar-title" style="background: #06A2CB;"><span>SQL</span></div>
-              <div class="skillbar-bar" style="background: #06A2CB;"></div>
-              <div class="skill-bar-percent">80%</div>
-            </div> <!-- End Skill Bar -->
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software &amp; Web Developer.</h3>
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p> -->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>4 Mar 1999</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                    <span>www.hafizshahman.github.io</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+6010 356 4414</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Shah Alam, Malaysia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <span>Diploma</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
+                    <span>hafizshahman1@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
+              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+              Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p>
           </div>
         </div>
+
       </div>
-      <!-- end section -->
+    </section><!-- End About Section -->
 
-      <!-- begin section -->
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
 
-      <div class="section" data-anchor="projects">
-        <div class="content-slide">
-          <div class="slide">
-            <h1 class="wow fadeInDown" data-wow-delay="0.2s">MYALUMNI</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s">Polytechnic Alumni Data Management</p>
-            <!-- <img class="wow fadeInUp" data-wow-delay="0.2s"
-              data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg"> -->
-            <img src="image/MYALUMNI(full).png" alt="" srcset="">
-          </div>
-          <div class="slide">
-            <h1>SKELLUP</h1>
-            <p>Digital Platform For Content Creator</p>
-            <!-- <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/machete.jpg"> -->
-            <img src="image/SKELLUP(full).png" alt="" srcset="">
-
-          </div>
-          <div class="slide">
-            <h1>KPJ RATING</h1>
-            <p>Customer Rating & has-feedback </p>
-            <!-- <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/cascioportfolio.jpg"> -->
-            <img src="image/KPJ(full).png" alt="" srcset="">
-          </div>
-          <div class="slide">
-            <h1>FEELOUTDOORZ</h1>
-            <p>Outdoor Activity Booking App</p>
-            <!-- <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/blog.jpg"> -->
-            <img src="image/FEELOUTDOORZ(full).png" alt="" srcset="">
-          </div>
-          <!-- <div class="slide">
-            <h1>PIXBORED</h1>
-            <p>Website for sharing images and gifs.</p>
-            <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/pixbored.jpg">
-          </div>
-          <div class="slide">
-            <h1>PERSONAL WEBSITE</h1>
-            <p>Responsive vertical/horizontal header website theme.</p>
-            <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
-          </div> -->
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
-      <!-- end section -->
+    </section> -->
+    <!-- End Facts Section -->
 
-      <!-- begin section -->
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
 
-      <div class="section" data-anchor="contact">
-        <div class="content wow fadeInDown" data-wow-delay="0.2s">
-          <h1>CONTACT ME</h1>
-          <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
-          <br>
-          <div class="contact-form">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
 
-            <div id="form-messages"></div>
-            <form id="ajax-contact" method="post" role="form" action="mailto:hafizshahman1@gmail.com"
-              data-toggle="validator" enctype="text/plain">
-              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
-                <input type="text" class="form-control" id="name" name="name" placeholder="NAME"
-                  data-error="Field can't be blank!" required>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors"></div>
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Illustrator <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Premiere Pro <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Hafiz Shahman</h4>
+              <p><em>An independent and self-motivated graduate with proven and tested project management and software
+                  development skills. One years of project management experience in software implementation and web
+                  portal launches. Demonstrated track of record of completing projects on time within the budget
+                  limits.</em></p>
+              <ul>
+                <li>Shah Alam, Selangor, Malaysia </li>
+                <li>+6010 356 4414</li>
+                <li>hafizshahman1@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>2021 - 2022 (Internship)</h5>
+              <h5>2022 - Present</h5>
+              <p><em>Revenue Discovery Sdn Bhd, Shah Alam</em></p>
+              <p><em>Software Developed</em></p>
+              <ul>
+                <li>MyAlumni Management System</li>
+                <li>SkellUp Platform </li>
+                <li>KPJ Costumer Star Rating System</li>
+              </ul>
+
+            </div>
+            <div class="resume-item">
+              <h4>IT Technician</h4>
+              <h5>2018</h5>
+              <p><em>L Double U Technology Resources (M) Sdn Bhd (Internship)</em></p>
+              <ul>
+                <li>Installing and configure CCTV</li>
+                <li>Network configuration</li>
+                <li>DPMM Data Management System</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Project Developed</h3>
+            <div class="resume-item">
+              <ul>
+                <li>FoodBank Management System</li>
+                <li>PDF Book Library</li>
+                <li>Lawyer Management System</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="resume-title">Certificate</h3>
+            <div class="resume-item">
+              <ul>
+                <li>MBOT Qualified Technician (05/2023 - Present)</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Archievement</h3>
+            <div class="resume-item">
+              <ul>
+                <li>Industrial Award by Politeknik Muadzam Shah (09/2022)</li>
+                <li>Head of Department's Awards </li>
+                <li>Dean List for Semester 3 (GPA : 3.76 )</li>
+                <li>Dean List for Semester 4 (GPA : 3.79 )</li>
+                <li>Dean List for Semester 5 (GPA : 3.73 )</li>
+                <li>SkellUp Platform (3rd place JomLaunch Youth Innovation
+                  Competition)</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Diploma in Information Technology (Digital Technology)</h4>
+              <h5>2018 - 2022</h5>
+              <p><em>Polytechnic Muadzam Shah (3.57 CGPA)</em></p>
+              <p><em>Project</em></p>
+              <ul>
+                <li>iFoodBank Management System</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Certificate in Information Technology</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Temerloh Community College (3.75 CGPA)</em></p>
+              <p><em>Project</em></p>
+              <ul>
+                <li>Smart Mirror</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Language</h3>
+            <div class="resume-item">
+                <h5>Malay</h5>  (Native or Bilingual Proficiency) <br>
+                <h5>English</h5>  (Full Professional Proficiency)
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">App</li>
+              <!-- <li data-filter=".filter-card">Card</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/MYALUMNI(full).png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/project/MYALUMNI(full).png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="MyAlumni Management System"><i class="bx bx-search"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-right-arrow-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/SKELLUP(full).png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/project/SKELLUP(full).png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="SkellUp Platform"><i class="bx bx-search"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-right-arrow-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/KPJ(full).png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/project/KPJ(full).png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="KPJ Customer Rating System"><i class="bx bx-search"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-right-arrow-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/FEELOUTDOORZ(full).png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/project/FEELOUTDOORZ(full).png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="FeelOutdoorz"><i class="bx bx-search"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-right-arrow-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/FEELOUTDOORZ(full).png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/project/FEELOUTDOORZ(full).png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="FeelOutdoorz"><i class="bx bx-search"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-right-arrow-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-laptop"></i></div>
+            <h4 class="title"><a href="">Custom Web Application</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-laptop"></i></div>
+            <h4 class="title"><a href="">Corporate Website</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Consultation</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
               </div>
 
-              <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
-                <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL"
-                  data-error="Field can't be blank!" required>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors"></div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
               </div>
 
-              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
-                <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE"
-                  data-error="Minimum of 10 characters" required></textarea>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors"></div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
               </div>
 
-              <div class="hidden">
-                <input type="text" class="form-control" id="human" name="human" placeholder="">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
               </div>
-              <div class="wow fadeInUp" data-wow-delay="1s">
-                <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-            <br>
           </div>
+
         </div>
+
       </div>
-      <!-- end section -->
+    </section><!-- End Contact Section -->
 
-      <!-- begin section -->
+  </main><!-- End #main -->
 
-      <div class="section fp-auto-height">
-        <div class="footer">
-          <p>CONNECT WITH ME</p>
-          <div class="social-links">
-            <span>
-              <a href="https://www.linkedin.com/in/muhammad-hafiz-shahman-907b72195" target="_blank">
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-              </a>
-            </span>
-            <span>
-              <a target="_blank" href="https://twitter.com/hfzshahman" target="_blank">
-                <i class="fa-brands fa-twitter fa-2x"></i>
-              </a>
-            </span>
-            <span>
-              <a href="https://github.com/HafizShahman" target="_blank">
-                <i class="fa-brands fa-github fa-2x"></i>
-              </a>
-            </span>
-            <span>
-              <a href="https://api.whatsapp.com/send?phone=60103564414" target="_blank">
-                <i class="fa-brands fa-whatsapp fa-2x"></i>
-              </a>
-            </span>
-            <!-- <span><a href="https://codepen.io/SquishyAndroid/pens/public/"><i
-                  class="fa-brands fa-codepen fa-2x"></i></a></span> -->
-          </div>
-        </div>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+        data-name="bmc-button" data-slug="apishcaman" data-color="#FFDD00" data-emoji="☕" data-font="Cookie"
+        data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000"
+        data-coffee-color="#ffffff"></script>
+      <br>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hafiz Shahman</span></strong>
       </div>
-      <!-- end section -->
-
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Made with ❤️ <a href="https://hafizshahman.github.io/">Hash Tech Group</a>
+      </div>
     </div>
-    <!-- end fullpage -->
-  </body>
-  <!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script>
-  <script src="./script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
-    integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
