@@ -149,36 +149,36 @@ main {
   margin-top: -6rem;
 }
 #profilePhoto {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 10rem;
-    overflow: hidden;
-    position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#profilePhoto::before {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  background-image: conic-gradient(#ed1d7b 45deg, #25aee4 180deg);
+  animation: rotate 1s linear infinite;
+}
+
+#profilePhoto::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background-image: url("./photo.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(-360deg);
   }
-  
-  #profilePhoto::before {
-    content: "";
-    position: absolute;
-    inset: -80px;
-    background-image: conic-gradient(#ed1d7b 45deg, #25aee4 180deg);
-    animation: rotate 1s linear infinite;
-  }
-  
-  #profilePhoto::after {
-    content: "";
-    position: absolute;
-    inset: 6px;
-    background-image: url("./photo.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;
-  }
-  
-  @keyframes rotate {
-    to {
-      transform: rotate(-360deg);
-    }
-  }
+}
 #info {
   display: flex;
   flex-direction: column;
